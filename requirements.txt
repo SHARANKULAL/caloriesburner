@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+fastapi
+uvicorn
+pymongo
+python-dotenv
+jinja2
+python-multipart
