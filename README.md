@@ -4,3 +4,19 @@ to run the program use the below command in your VS code terminal
 uvicorn app:app --reload
 
 then select the local host link using ctrl+Enter button
+the fike structure should look like this
+calorie_predictor/
+├── data/
+│   └── calories.csv
+├── db/
+├── models/
+│   ├── calorie_model.pkl
+│   ├── imputer.pkl
+│   ├── scaler.pkl
+├── templates/
+│   ├── index.html
+│   └── history.html
+├── app.py
+├── retrain_model.py
+├── requirements.txt
+└── .env
